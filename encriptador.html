@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-encrip.css">
+    </head>
+    <body>
+        <header>
+            <img src="imagenes/logo.svg" alt="Logo Alura" class="logo">
+        </header>        
+        <main>
+            <section class="seccion1">
+                <div class="contenedor-caja-texto">                              
+                <textarea class="cajaTexto" placeholder="Ingrese el texto aqui"></textarea>
+                </div>
+                <div class="alerta">
+                    <img src="imagenes/exclamation-circle.svg" alt="exclamacion">   
+                    <p>Solo letras minusculas sin acento</p>
+                </div>
+                <div class="contenedor-botones">                        
+                    <input class="btn-encriptar" type="button" value="Encriptar" id="boton-encriptar">                    
+                    <input class="btn-desencriptar" type="button" value="Desencriptar" id="boton-desencriptar">
+                </div>
+                <footer>
+                    <div class="creador">
+                        <p>Esta pagina fue creado por Matuka308</p>
+                    </div>
+                </footer>
+            </section>
+
+            <section class="seccion2">                
+                <div class="contenedor-munieco">
+                    <img src="imagenes/dibujo.svg" alt="dibujo de alguien buscando">
+                </div>
+                <div class="contenedor-parrafo">
+                    <h3>Ningun mensaje fue <br> encontrado</h3>
+                    <p>Ingrese el mensaje que desee encriptar <br> o desencriptar.</p>
+                </div>
+                <div class="contenedor-copiar">
+                    <input class="btn-copiar" type="button" value="copiar" id="boton-copiar">
+                </div>
+                <div class="contenedor-resultado">
+                    <p class="texto-resultado"></p>
+                </div>                
+            </section>
+        </main>
+        <script src="codigo-encriptador.js"></script>
+        
+    </body>
+      
+</html>
